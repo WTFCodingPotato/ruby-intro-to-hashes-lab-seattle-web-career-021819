@@ -1,11 +1,10 @@
 def new_hash
-	empty_hash = {}
-	empty_hash
+	hash = {}
 end
 
 def actor({:name}, string)
-	new_actor = {new_hash => {:name=>string}}
-	new_actor
+	new_actor = {name: "Dwayne The Rock Johnson"}
+
 end
 
 def monopoly
